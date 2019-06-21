@@ -1,6 +1,6 @@
 # K3s Terraform 
 
-A very simple two node cluster built using terraform. If you want to do this on ARM, check out [https://github.com/wjimenez5271/k3s-arm](k3s-arm)
+A very simple two node cluster built using terraform. If you want to do this on ARM, check out [k3s-arm](https://github.com/wjimenez5271/k3s-arm)
 
 ### Instructions
 
