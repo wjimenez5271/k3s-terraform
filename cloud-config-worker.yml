@@ -1,0 +1,9 @@
+#cloud-config
+write_files:
+-   encoding: b64
+    content: Y3VybCAtc2ZMIGh0dHBzOi8vZ2V0Lmszcy5pbyB8IEszU19VUkw9aHR0cHM6Ly9leGFtcGxlLXVybDo2NDQzIEszU19UT0tFTj1YWFggc2ggLQo=
+    owner: root:root
+    path: /root/k3s.sh
+    permissions: '0644'
+runcmd:
+final_message: "The system is finally up, after $UPTIME seconds"
